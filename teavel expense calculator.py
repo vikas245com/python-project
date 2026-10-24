@@ -1,0 +1,12 @@
+DT = int(input("Enter your Distance travelled:  ")) 
+VM = int(input("Enter your vehicle mileage(km/litre):  "))
+PPPl = int(input("Enter your petrol price per litre:  "))
+FE = int(input("Enter your food expense:  "))
+HE = int(input("Enter your Hotel expense:  "))
+OE = int(input("Enter your Other expense:   "))  
+PU = DT / VM 
+PC = PU * PPPl 
+total_travel_expense = PC + FE + HE + OE 
+print("Petrol used = " , PU)
+print("petrol cost = " , PC)
+print("Total Travel Expense = " , total_travel_expense) 
