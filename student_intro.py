@@ -1,0 +1,10 @@
+# student Introduction
+name = input("Enter your Name:")
+age = int(input("Enter your age: "))
+city = input("Enter your city: ")
+subject = input("Enter your favourite subject: ")
+print("--- Your Introduction ---")
+print("Name : " , name)
+print("Age : " , age)
+print("city : " , city)
+print("Favourite Subject : " , subject)
