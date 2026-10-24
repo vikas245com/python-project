@@ -1,0 +1,12 @@
+Employee_name = input("Enter your name:")
+Basic_salary = float(input("Enter your basic salary: "))
+HRA = float(input("Enter your HRA: "))
+TA = float(input("Enter your TA: "))
+Bonus = float(input("Enter your Bonus: ")) 
+Gross_salary = Basic_salary + HRA + TA + Bonus 
+print("Employee name = " , Employee_name ) 
+print("Basic_salary = " , Basic_salary)
+print("HRA = " , HRA) 
+print("TA = " , TA )
+print("Bonus = " , Bonus) 
+print(" Yours Gross salary is" , Gross_salary ) 

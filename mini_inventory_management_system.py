@@ -67,17 +67,3 @@ while True:
         break
     else:
         print("only 1 se 6 tak hee number hee add karain!")
-
-
-               
-    
-
-
-
-
-
-
-
-
-
-    
