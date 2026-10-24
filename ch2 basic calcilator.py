@@ -1,0 +1,16 @@
+n1 = float(input('Enter first float number\n' ))
+n2 = float(input('Enter second float number\n'))
+sum = n1 + n2 
+sub = n1 - n2 
+mul = n1 * n2
+fdiv = n1 / n2 
+idiv = n1 // n2
+powern1 = n1 ** 2
+powern2 = n2 ** 2  
+print('sum =' , sum)
+print('sub =' , sub)
+print('mul = ' , mul)
+print('integer div = ' , idiv)
+print('float division = ' , fdiv)
+print("power of n1 = " , powern1 )
+print("power of n2 = ", powern2 )  

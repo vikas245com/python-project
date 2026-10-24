@@ -1,0 +1,8 @@
+a = input("Enter your first number : ")
+b = input("Enter your second number : ")
+print(a > b )
+print(a < b ) 
+print(a >= b )
+print(a <= b )
+print(a == b )
+print(a != b ) 
