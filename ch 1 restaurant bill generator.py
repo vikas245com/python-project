@@ -1,0 +1,13 @@
+Customer_name = input("Enter your name: ")
+f1= input("Enter your first food name: ")
+f2 = input("Enter your second food name: ")
+f3 = input("Enter your third food name: ")
+p1 = int(input("Enter your first food price:: "))
+p2 = int(input("Enter your second food price: "))
+p3 = int(input("Enter your third food price: "))
+Q1 = int(input("Enter your first food quantity: "))
+Q2 = int(input("Enter your second food quantity: "))
+Q3 = int(input("Enter your third food quantity: "))
+total_price = p1*Q1 + p2*Q2 + p3*Q3 
+total_bill = (total_price*95)/100  
+print("your total bill = " , total_bill ) 
