@@ -1,0 +1,17 @@
+student_name = input("Enter student name: ") 
+Roll_number = input('Enter your Roll number: ') 
+H, E, M, Ss, s = input("Enter your 5 subject marks: ").split()
+Hindi = int(H)
+English = int(E) 
+Math = int(M)
+Social_science = int(Ss)
+science = int(s) 
+total_marks = Hindi + English + Math + Social_science + science  
+average = total_marks/5
+max_marks = 500
+percentage = total_marks/500*100
+print("your name = " , student_name )
+print("Your Roll number = " , Roll_number) 
+print("total marks = " , total_marks)
+print("average = " , average )
+print("percentage = " , percentage ) 
